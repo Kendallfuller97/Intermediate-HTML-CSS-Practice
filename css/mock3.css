@@ -1,0 +1,119 @@
+/* Nav Styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+}
+
+.left-side {
+    display: flex;
+
+}
+
+.brand {
+    margin-top: -35px;
+}
+
+.brand img {
+    height : 100px;
+    width : 100px;
+}
+
+.right-side > div > a {
+    color: white;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+
+.right-side > div > a:hover {
+    color: rgb(0, 255, 55);
+
+}
+   
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: rgb(0, 255, 55);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid rgb(0, 255, 55);
+}
+
+.nav-link-wrapper a:hover {
+    color: rgb(0, 255, 55);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+  }
+
+.brand:hover {
+    transition: color 0.5s;
+    color: rgb(0, 255, 55);
+}
+
+
+/* Mock 1 */
+body{
+     background-color: rgb(0, 0, 0);
+}
+
+section, article, footer {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+section, article, footer {
+    padding-top: 15px;
+}
+.container{
+    width: 850px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.wrappers{
+    width: 700px;
+    align-self: center;
+    
+}
+
+.wrappera{
+    width: 850px;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    isolation: isolate;
+    margin: 25px;
+
+}
+
+section{
+    background-color: rgb(255, 66, 66);
+    height: 100px;
+    padding-top: 15px;
+}
+
+article{
+    background-color: rgb(0, 153, 255);
+    height: 150px; 
+    float: left;
+    width: 30.33%;
+    position: relative;
+  
+}
